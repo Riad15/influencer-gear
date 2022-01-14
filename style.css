@@ -1,0 +1,71 @@
+/* -----------------------
+font style sheet 
+------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&family=Italianno&family=Lilita+One&family=Poppins:wght@500&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #AAAAAA;
+    font-family: 'Poppins', sans-serif;
+
+}
+main{
+    background-color: #ffff;
+    color: #3A3A3A ;
+    width: 880px;
+    height: 3306px; ;
+    align-items: center;
+
+
+}
+section{
+    padding: 80px;
+}
+.brandin-part{
+    display: flex;
+    justify-content: space-around;
+}
+.brandin-part .itro-img img{
+width: 420px;
+height: 400px;
+}
+.intro{
+    
+    width: 580px;
+    height: 270px;
+    margin-top: 70px ;
+}
+.head-line{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3A3A3A ;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: justify;
+    
+}
+button{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 15px;
+    border: white solid 1px;
+    background-color:tomato;
+    margin-top: 22px;
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-column-gap: 10px;
+    border: solid 2px tomato;
+}
+.logo img{
+    width: 55px;
+    height: 32px;
+    margin-left: 10px;
+}
