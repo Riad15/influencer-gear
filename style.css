@@ -3,7 +3,9 @@ font style sheet
 ------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&family=Italianno&family=Lilita+One&family=Poppins:wght@500&family=Roboto+Slab:wght@700&display=swap');
 
-
+/*---------------------------------
+common style 
+------------------------------------ */
 
 body{
  margin: 0;
@@ -14,6 +16,7 @@ font-family: 'Poppins', sans-serif;
 
 
 }
+
 .project{
 width: 1320px;
 height: 2500px;
@@ -22,6 +25,9 @@ align-items: center;
 background-color: #ffff;
 color: #3A3A3A ;
 }
+/*---------------------------------------
+navbar saction styly
+------------------------------------*/
 .nav-section{
     display: flex;
     justify-content: space-between;
@@ -50,6 +56,9 @@ section{
     margin-top: 70px;
     padding-bottom: 0;
 }
+/*-----------------------------------------
+display product
+-----------------------------------------*/
 .brandin-part{
     display: flex;
     justify-content: space-around;
@@ -58,8 +67,7 @@ section{
 width: 420px;
 height: 400px;
 }
-.intro{
-    
+.intro{ 
     width: 420px;
     height: 270px;
     margin-top: 70px ;
@@ -83,6 +91,9 @@ button{
     background-color:tomato;
     margin-top: 12px;
 }
+/*---------------------------------------
+online Ecomerce
+------------------------------------ */
 .logo{
     display: grid;
     grid-template-columns: repeat(7,1fr);
@@ -99,6 +110,9 @@ button{
     font-size: 30px;
     font-weight: 70px;
 }
+/* -------------------------------------
+top products
+ ------------------------------------ */
 .popular-collection{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -147,6 +161,9 @@ button{
 .rateing{
     margin-left: 15px;
 }
+/*-------------------------
+new product branding
+----------------------------*/
 .up-comming-gsadget{
     display: flex;
     justify-content: space-around;
@@ -160,6 +177,9 @@ button{
 .about-trailer h2,p{
     margin: 0;
 }
+/* ------------------------------------------
+footer section
+ ------------------------------------------ */
 footer{
     padding: 10px;
     margin-top: 70px;
@@ -196,8 +216,9 @@ background-color: white;
     color: tomato;
     background-color: white;
 }
-
-
+/* ---------------------------------------------------
+mobile display
+--------------------------------- */
 @media only screen and (max-width:620px) {
     .project{
         width: 100%;
@@ -244,6 +265,7 @@ background-color: white;
         width: 100%;
     }
 }
+/* -----------------------------------------------tab display --------------------------------------------- */
 @media only screen and (min-width:621px) and (max-width:992px) {
     
     .project{
