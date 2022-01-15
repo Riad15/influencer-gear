@@ -194,13 +194,14 @@ background-color: white;
     .logo{
         grid-template-columns: repeat(2,1fr);
         grid-row-gap: 10px;
+        width: 92%;
     }
     .popular-collection{
         grid-template-columns: repeat(1,1fr);
         grid-row-gap: 10px;
     }
     .card{
-        width: 100%;
+        width: 95%;
         height: 100%;
     }
     .up-comming-gsadget{
